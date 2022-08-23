@@ -2,9 +2,6 @@ import streamlit as st
 import pickle
 import numpy as np
 
-st.page_config = st.set_page_config(
-    layout="wide"
-)
 
 st.header("Books Recommender:Collaborative filtering")
 

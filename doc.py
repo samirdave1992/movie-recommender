@@ -2,12 +2,11 @@ import streamlit as st
 
 st.set_page_config(
     page_title="recommender systems",
-    page_icon="👋",
-)
+    page_icon="👋",)
 
 st.write("# Welcome to my recommender system app! 👋")
 
-st.sidebar.success("Select a options below.")
+
 
 st.markdown(
     """

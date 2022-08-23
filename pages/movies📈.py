@@ -3,11 +3,8 @@ import streamlit as st
 import requests
 
 
-st.page_config = st.set_page_config(
-    layout="wide"
-)
 
-st.header("Movie Recommender System")
+st.header("Movie Recommender System:content based")
 st.markdown("""
     1. Data collected from:[TMDB](https://www.themoviedb.org/?language=en-US)
     2. Recommendation list limited to 5 movies only
